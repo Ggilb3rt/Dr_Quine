@@ -4,10 +4,10 @@
 ## General usage
 Must be on unix based system
 ```bash
-	cd X_name/C
-	make #only compile
-	make test #compile and make basic test
-	./name
+cd X_name/C
+make #only compile
+make test #compile and make basic test
+./name
 ```
 
 ## 0_Colleen, basic
