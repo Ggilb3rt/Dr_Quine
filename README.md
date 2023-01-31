@@ -27,6 +27,16 @@ With Grace we have to do a quine without main function. I don't exactly understa
 	- No main declared.
 	- Three defines only.
 	- One comment.
+
+## 2_Sully, mutation
+After self-reproduction, welcome to self-reproduction with mutation !
+#### Subject restrictions
+- The executable must be named Sully.
+- When executed the program writes in a file named Sully_X.c/Sully_X.s. The X will be an interger given in the source. Once the file is created, the program compiles this file and then runs the new program (which will have the name of its source file).
+- Stopping the program depends on the file name : the resulting program will be executed only if the integer X is greater than 0.
+- An integer is therefore present in the source of your program and will have to evolve by decrementing every time you create a source file from the execution of the program.
+- You have no constraints on the source code, apart from the integer that will be set to 5 at first.
+
 ## Some helpfull links
 - [wiki Quine program](https://fr.wikipedia.org/wiki/Quine_(informatique))
 - [wiki fixed point](https://en.wikipedia.org/wiki/Fixed_point_(mathematics))
