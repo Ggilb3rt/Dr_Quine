@@ -19,8 +19,10 @@ $(NAME): $(OBJ)
 clean:
 	-rm $(OBJ)
 fclean: clean
-	rm $(NAME) $(NAME)_*.c
+	-rm $(NAME) $(NAME)_*
 re: fclean all
 
 test: clean all
 	./$(NAME)
+	ls -al | grep Sully | wc -l
+	diff Sully.c Sully_0.c
