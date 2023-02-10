@@ -20,7 +20,7 @@ clean:
 	-rm $(OBJ)
 	-rm Grace_kid.c
 fclean: clean
-	rm $(NAME)
+	-rm $(NAME)
 re: fclean all
 
 test: clean all

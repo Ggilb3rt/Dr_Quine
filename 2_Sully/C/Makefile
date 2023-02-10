@@ -19,7 +19,8 @@ $(NAME): $(OBJ)
 clean:
 	-rm $(OBJ)
 fclean: clean
-	-rm $(NAME) $(NAME)_*
+	-rm $(NAME)
+	-rm $(NAME)_*
 re: fclean all
 
 test: clean all
