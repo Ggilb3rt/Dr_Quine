@@ -17,10 +17,10 @@ $(NAME): $(OBJ)
 
 # CLEANERS
 clean:
-	-rm $(OBJ)
-	-rm Grace_kid.c
+	-rm -f $(OBJ)
+	-rm -f Grace_kid.c
 fclean: clean
-	-rm $(NAME)
+	-rm -f $(NAME)
 re: fclean all
 
 test: clean all

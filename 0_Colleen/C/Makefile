@@ -17,10 +17,10 @@ $(NAME): $(OBJ)
 
 # CLEANERS
 clean:
-	-rm $(OBJ)
-	-rm tmp.log
+	-rm -f $(OBJ)
+	-rm -f tmp.log
 fclean: clean
-	-rm $(NAME)
+	-rm -f $(NAME)
 re: fclean all
 
 test: all
