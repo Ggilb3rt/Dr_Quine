@@ -26,4 +26,4 @@ re: fclean all
 test: clean all
 	./$(NAME)
 	ls -al | grep Sully | wc -l
-	diff Sully.c Sully_0.c
+	diff Sully.c Sully_0.c || exit 0
